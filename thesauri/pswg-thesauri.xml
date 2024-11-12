@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:sosa="http://www.w3.org/ns/sosa/">
+
+<skos:ConceptScheme rdf:about="https://github.com/Polar-Semantics-Working-Group/pswgdefinitions">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <dc:title xml:lang="en">Polar Semantics Working Group Vocabulary</dc:title>
+    <dc:creator>Øystein Godøy</dc:creator>
+    <dc:created>2024-11-12</dc:created>
+    <dc:contributor>Jan Rene Larsen</dc:contributor>
+    <dc:contributor>Chantelle Verhey</dc:contributor>
+    <dc:contributor>Rebekah Ingram</dc:contributor>
+    <dc:contributor>Petra Ten Hoopen</dc:contributor>
+    <dc:publisher xml:lang="en">Polar Semantics Working Group</dc:publisher>
+    <dc:license>https://creativecommons.org/publicdomain/zero/1.0/</dc:license>
+    <skos:definition xml:lang="en">SKOS concept collections of controlled vocabularies or code lists used by the Polar Semantics Working Group (https://arcticdc.org/activities/core-projects/vocabularies-and-semantics-wg).</skos:definition>
+    <!--prov:wasDerivedFrom rdf:resource=""/-->
+    <prov:generatedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-12</prov:generatedAtTime>
+    <prov:wasGeneratedBy>
+        <prov:Person rdf:about="https://orcid.org/0000-0001-5221-1377">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+            <foaf:givenName xml:lang="en">Øystein Godøy</foaf:givenName>
+            <prov:hadRole rdf:resource="http://purl.org/dc/terms/contributor"/>
+            <prov:actedOnBehalfOf>
+                <foaf:Organization rdf:about="">
+                    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+                    <foaf:name>Polar Semantics Working Group</foaf:name>
+                </foaf:Organization>
+            </prov:actedOnBehalfOf>
+        </prov:Person>
+    </prov:wasGeneratedBy>
+</skos:ConceptScheme>
+
+<skos:Collection rdf:about="">
+    <rdf:type rdf:resource="http://purl.org/iso25964/skos-thes#ConceptGroup"/>
+    <skos:inScheme rdf:resource="https://github.com/Polar-Semantics-Working-Group/pswgdefinitions"/>
+    <skos:prefLabel xml:lang="en">Data definitions</skos:prefLabel>
+    <skos:definition xml:lang="en">Data definitions used by the Polar Semantics Working Group</skos:definition>
+
+    <skos:member>
+        <skos:Concept rdf:about="">
+            <skos:prefLabel xml:lang="en">Data</skos:prefLabel>
+            <skos:seeAlso rdf:resource=""/>
+            <skos:definition xml:lang="en"></skos:definition>
+        </skos:Concept>
+    </skos:member>
+    <skos:member>
+        <skos:Concept rdf:about="">
+            <skos:prefLabel xml:lang="en">Dataset</skos:prefLabel>
+            <skos:seeAlso rdf:resource=""/>
+            <skos:definition xml:lang="en"></skos:definition>
+        </skos:Concept>
+    </skos:member>
+    <!--
+        <skos:member>
+        <skos:Concept rdf:about="">
+        <skos:prefLabel xml:lang="en"></skos:prefLabel>
+        <skos:seeAlso rdf:resource=""/>
+        <skos:definition xml:lang="en"></skos:definition>
+        </skos:Concept>
+        </skos:member>
+    -->
+    </skos:Collection>
+
+</rdf:RDF>
